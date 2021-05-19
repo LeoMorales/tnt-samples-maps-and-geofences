@@ -1,0 +1,65 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">MapsApp</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="mapa_encabezado_texto">Primer mapa</string>
+
+    <string name="mapa_normal">Mapa normal</string>
+    <string name="mapa_hibrido">Mapa híbrido</string>
+    <string name="mapa_satelite">Mapa satelite</string>
+    <string name="mapa_terreno">Mapa terreno</string>
+
+    <string name="lat_long_snippet">Lat: %1$.5f, Long: %2$.5f</string>
+    <string name="nuevo_marcador">Pin creado</string>
+    <string name="poi">poi</string>
+
+    <string name="permiso_denegado_explicacion">
+        Obtendrá una mejor experiencia si habilita la ubicación.
+    </string>
+    <string name="settings">Settings</string>
+    <string
+        name="configuracion_ubicacion_apagada">Por favor encienda la ubicacion del dispositivo en Settings e intente nuevamente.
+    </string>
+    <string name="error_ubicacion_requerida">Los servicios de ubicación deben ser habilitados para esta aplicación.</string>
+
+    <!--    Cadenas de Estado de Geofences -->
+    <string name="geofences_agregada">Geofence: Agregada.</string>
+    <string name="geofences_removida">Geofences: Removida.</string>
+    <string name="geofence_entrada">Geofence: Entrada.</string>
+    <string name="geofence_finalizada">No quedan mas Geofences por recorrer</string>
+
+    <!-- Sugerencias Geofences -->
+    <string name="sugerencia_no_inicializada"></string>
+    <string name="paseo_las_toninas_descripcion_breve">El monumento de las toninas overas</string>
+    <string name="aquavida_descripcion_breve">Dirigirse a Aquavida para el torneo de truco</string>
+    <string name="torneo_truco_descripcion_breve">Torneo de truco</string>
+    <string name="unpsjb_descripcion_breve">UNPSJB Sede Puerto Madryn</string>
+    <string name="unpsjb_tw_descripcion_breve">UNPSJB Sede Sede Trelew</string>
+
+    <!-- Geofences: Ubicaciones  -->
+    <string name="paseo_las_toninas_ubicacion">el Paseo Las Toninas</string>
+    <string name="aquavida_ubicacion">Aquavida</string>
+    <string name="torneo_ubicacion">Torneo Truco GarcíaEntretenimientos</string>
+    <string name="unpsjb_ubicacion">UNPSJB</string>
+
+    <!-- Cadenas de error -->
+    <string name="geofence_no_disponible">El servicio de Geofenceno está disponible en estos momentos</string>
+    <string name="geofence_demasiados_geofences">La aplicación ha registrado demasiados geofences</string>
+    <string name="geofence_demasiados_intents_pendientes">
+        Ha otorgado demasiados PendingIntents para la llamada a addGeofences()
+    </string>
+    <string name="error_geofence_desconocido">
+        Error desconocido: el servicio de Geofence no esta disponible en este momento
+    </string>
+
+    <string name="geofences_no_removidas">Geofences no removidas.</string>
+    <string name="geofences_no_agregadas">Problema al agregar geofences.</string>
+    <string name="permisos_insuficientes">Permisos insuficientes.</string>
+    <string name="geofence_error">Error al encontrar geofence</string>
+
+    <!-- Cadeans de notificacion -->
+    <string name="canal_de_notificacion_nombre">GeofenceStatus</string>
+    <string name="notificacion_texto_contenido">Estás en <xliff:g id="geofence_location">%1$s</xliff:g>.</string>
+    <string name="canal_de_notificacion_descripcion">Notificación del estado del Geofence</string>
+
+
+</resources>
