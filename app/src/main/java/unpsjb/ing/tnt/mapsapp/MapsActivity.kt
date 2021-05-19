@@ -356,7 +356,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
         }
     }
 
-    // TODO [Geofences] #1.9: Crear un Intent pendiente
+    // TODO [Geofences] #1.9: Agregar Geofences!
     /*
      * Agrega una geofence y si es necesario remueve cualquier Geofence existente. Este método debe
      * ser invocado despues de que el usuario otorgue permisos de ubicacion.
